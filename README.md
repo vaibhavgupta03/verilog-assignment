@@ -35,15 +35,7 @@ Verilog is a hardware description language (HDL) used to model electronic system
 - **Synthesis**: For FPGA implementation, ensure code is synthesizable (avoid constructs like initial blocks in design modules).
 - **Best Practices**: Use meaningful names, add comments, and modularize code for reusability.
 
-### Running the Provided Example (Basic Gates)
-Navigate to the `qn1/` directory and run:
-```
-iverilog -o mysim basic_gates.v testbench.v
-vvp mysim
-gtkwave waveform.vcd
-```
 
-This will simulate the basic gates and display their truth tables in the console, with waveforms available for detailed analysis.
 
 ## Assignment Solutions
 
