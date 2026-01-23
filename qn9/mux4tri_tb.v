@@ -9,7 +9,7 @@ initial
 begin
   $dumpfile("mux4tri.vcd");
   $dumpvars(0,mux4tri_tb);
-  $monitor("I = %b sel = %b | Y = %b",I,sel,Y);
+  $monitor($time," I = %b sel = %b | Y = %b",I,sel,Y);
   I = 4'b1001;
   #10 sel = 2'd3;
   #10 sel = 2'd0;
