@@ -15,6 +15,7 @@ begin
   #10 num = 4'd1;
   #10 num = 4'd9;
   #10 num = 4'd13;
+  #10 num = 4'd2;
   #10 $finish;
 end
 endmodule
